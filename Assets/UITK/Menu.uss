@@ -1,0 +1,19 @@
+.unity-label {
+    font-size: 24px;
+}
+
+.menu {
+    position: absolute;
+    left: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.show-menu {
+    opacity: 1;
+    translate: 0 0;
+}
+
+.hide-menu {
+    opacity: 0;
+    translate: 0 200px;
+}

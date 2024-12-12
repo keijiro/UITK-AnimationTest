@@ -1,0 +1,21 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UITK/Menu.uss?fileID=7433441132597879392&amp;guid=cf41db62c25584be9b928d9e8758e2cb&amp;type=3#Menu" />
+    <engine:VisualElement name="menu" class="menu show-menu">
+        <engine:VisualElement name="row" style="flex-grow: 1; flex-direction: row;">
+            <engine:Label text="Label" />
+            <engine:Label text="Label" />
+            <engine:Label text="Label" />
+            <engine:Label text="Label" />
+            <engine:Label text="Label" />
+            <engine:Label text="Label" />
+            <engine:Label text="Label" />
+            <engine:Label text="Label" />
+            <engine:Label text="Label" />
+        </engine:VisualElement>
+        <engine:Label text="Load Game" />
+        <engine:Label text="Save Game" />
+        <engine:Label text="Config" />
+        <engine:Label text="Credits" />
+        <engine:Label text="Return to Title" />
+    </engine:VisualElement>
+</engine:UXML>
