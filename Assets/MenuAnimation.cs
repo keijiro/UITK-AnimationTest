@@ -8,17 +8,19 @@ public sealed class MenuAnimation : MonoBehaviour
 
     void Start()
     {
+        Application.targetFrameRate = 60;
+
         var root = GetComponent<UIDocument>().rootVisualElement;
         _menu = root.Q("menu");
     }
 
-    /*
     void Update()
     {
-        if (Keyboard.current.spaceKey.wasPressedThisFrame)
+        if (Pointer.current.press.wasPressedThisFrame)
             _menu.ToggleInClassList("hide-menu");
     }
-    */
+
+    /*
     float _displacement;
     bool _hide;
 
@@ -30,13 +32,14 @@ public sealed class MenuAnimation : MonoBehaviour
 
     void Update()
     {
-        if (Keyboard.current.spaceKey.wasPressedThisFrame)
+        if (Pointer.current.press.wasPressedThisFrame)
             _hide = !_hide;
 
-        var delta = (_hide ? 1 : -1) * 5;
+        var delta = (_hide ? 1 : -1) * 4;
         _displacement = Mathf.Clamp01(_displacement + delta * Time.deltaTime);
 
         _menu.transform.position = new Vector3(0, CubicEaseOut(_displacement) * 200, 0);
         _menu.style.opacity = _displacement;
     }
+    */
 }

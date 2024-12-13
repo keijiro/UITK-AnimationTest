@@ -10,10 +10,16 @@
 
 .show-menu {
     opacity: 1;
-    translate: 0 0;
+    top: 20px;
+    transition-property: top, opacity;
+    transition-timing-function: ease-out-cubic, ease;
+    transition-duration: 0.25s, 0.25s;
 }
 
 .hide-menu {
     opacity: 0;
-    translate: 0 200px;
+    top: 200px;
+    transition-property: top, opacity;
+    transition-timing-function: ease-in-cubic, ease;
+    transition-duration: 0.25s, 0.25s;
 }
