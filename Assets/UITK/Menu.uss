@@ -1,5 +1,14 @@
 .unity-label {
-    font-size: 24px;
+    font-size: 50px;
+    -unity-font-definition: url("project://database/Assets/UITK/Kolker_Brush/KolkerBrush-Regular.ttf?fileID=12800000&guid=89ab1d241752640b9858288a6852efc1&type=3#KolkerBrush-Regular");
+    margin-top: -4px;
+    margin-right: 0;
+    margin-bottom: -2px;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
 }
 
 .menu {
@@ -22,4 +31,13 @@
     transition-property: top, opacity;
     transition-timing-function: ease-in-cubic, ease;
     transition-duration: 0.25s, 0.25s;
+}
+
+.horizontal-line {
+    width: 256px;
+    height: 16px;
+    background-image: url("project://database/Assets/UITK/Textures/Stroke1.png?fileID=2800000&guid=0684e141cfb2841b5af45ea6d18ef078&type=3#Stroke1");
+    position: absolute;
+    bottom: 4px;
+    left: -40px;
 }

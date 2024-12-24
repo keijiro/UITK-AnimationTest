@@ -12,10 +12,25 @@
             <engine:Label text="Label" />
             <engine:Label text="Label" />
         </engine:VisualElement>
-        <engine:Label text="Load Game" />
-        <engine:Label text="Save Game" />
-        <engine:Label text="Config" />
-        <engine:Label text="Credits" />
-        <engine:Label text="Return to Title" />
+        <engine:VisualElement name="menu-item-row">
+            <engine:Label text="Load Game" name="menu-item-label" />
+            <engine:VisualElement name="horizontal-line" class="horizontal-line" />
+        </engine:VisualElement>
+        <engine:VisualElement name="menu-item-row">
+            <engine:Label text="Save Game" name="menu-item-label" />
+            <engine:VisualElement name="horizontal-line" class="horizontal-line" />
+        </engine:VisualElement>
+        <engine:VisualElement name="menu-item-row">
+            <engine:Label text="Config" name="menu-item-label" />
+            <engine:VisualElement name="horizontal-line" class="horizontal-line" />
+        </engine:VisualElement>
+        <engine:VisualElement name="menu-item-row">
+            <engine:Label text="Credits" name="menu-item-label" />
+            <engine:VisualElement name="horizontal-line" class="horizontal-line" />
+        </engine:VisualElement>
+        <engine:VisualElement name="menu-item-row">
+            <engine:Label text="Return to Title" name="menu-item-label" />
+            <engine:VisualElement name="horizontal-line" class="horizontal-line" />
+        </engine:VisualElement>
     </engine:VisualElement>
 </engine:UXML>
