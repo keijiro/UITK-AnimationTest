@@ -34,10 +34,25 @@
 }
 
 .horizontal-line {
-    width: 256px;
-    height: 16px;
+    width: 320px;
+    height: 20px;
     background-image: url("project://database/Assets/UITK/Textures/Stroke1.png?fileID=2800000&guid=0684e141cfb2841b5af45ea6d18ef078&type=3#Stroke1");
     position: absolute;
-    bottom: 4px;
-    left: -40px;
+    bottom: 2px;
+    left: -69px;
+}
+
+.ladder {
+    margin-left: 18px;
+}
+
+.vertical-line {
+    position: absolute;
+    width: 320px;
+    height: 20px;
+    background-image: url("project://database/Assets/UITK/Textures/Stroke2.png?fileID=2800000&guid=93b3c1567f1a443f597a18f9e6d8deab&type=3#Stroke2");
+    left: -32px;
+    bottom: -40px;
+    rotate: -70deg;
+    transform-origin: left top;
 }
